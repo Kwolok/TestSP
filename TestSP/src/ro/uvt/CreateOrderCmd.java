@@ -3,7 +3,6 @@ package ro.uvt;
 import java.util.Vector;
 
 public class CreateOrderCmd {
-    Vector<Produs> produse = new Vector<Produs>();
     public Order execute() {
         Order o = new Order();
         o.addProd("Supe pui",2,7.5);
